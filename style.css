@@ -38,7 +38,6 @@
   display: inline-block;
   align-items: center;
   justify-content: center;
-
   list-style: none;
 }
 .nav-list ul li {
@@ -130,7 +129,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
   margin-top: 4%;
 }
 .layer {
@@ -138,7 +136,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
 }
 .layer h1 {
   font-size: 120px;
@@ -231,16 +228,14 @@ strong {
   justify-content: center;
   padding: 15px;
   margin-top: 20px;
-  /* position: relative; */
 }
 .services .row {
   margin-top: 6%;
 }
-
 .col-3 {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px;
+  flex-basis: 100%;
 }
 .col-3 .bx {
   display: flex;
@@ -258,7 +253,7 @@ strong {
   height: 25vh;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -10%;
+  margin-top: -10.9%;
   padding: 10px;
 }
 .col-3 p {
@@ -269,6 +264,11 @@ strong {
 }
 .col-3 p b {
   font-size: 25px;
+}
+.col-4 {
+  display: inline-block;
+  margin-top: 20px;
+  flex-basis: 100%;
 }
 .col-4 .bx {
   display: flex;
@@ -286,7 +286,7 @@ strong {
   height: 25vh;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: -10%;
+  margin-top: -10.9%;
   padding: 10px;
 }
 .col-4 p {
@@ -338,7 +338,7 @@ strong {
   border: transparent;
   background-color: rgb(1, 220, 165);
   width: 13%;
-  border-radius: 15%;
+  border-radius: 10px;
   padding: 5px;
   margin-bottom: 2%;
   font-size: 13px;
@@ -351,10 +351,10 @@ strong {
   margin-bottom: 2%;
   font-size: 25px;
 }
-.schName {
+.level {
   margin-bottom: 2%;
 }
-.schName p {
+.level p {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 600;
