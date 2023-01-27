@@ -311,7 +311,7 @@ strong {
   display: flex;
   align-items: center;
   padding: 20px;
-  margin-top: 6%;
+  margin-top: 4%;
 }
 .card-1 {
   padding: 20px;
@@ -374,4 +374,138 @@ p {
   font-size: 25px;
   color: #000;
   margin-bottom: 5%;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 20%;
+  padding: 10px;
+}
+.pic-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+.titles {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.titles ul li {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+  list-style: none;
+}
+.titles ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 18px;
+  font-weight: 300;
+}
+.top-img img {
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: 10%;
+  flex-basis: 20%;
+}
+.top-img1 img {
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  border-radius: 25px;
+  margin-top: 2%;
+}
+.top-img2 img {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 25px;
+  margin-left: 15%;
+  flex-basis: 20%;
+}
+
+/* CONTACT SECTION */
+.contact {
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 63%;
+  padding: 10px;
+}
+
+.contact-us {
+  width: 80%;
+  margin: 10%;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+
+.contact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.contact-col div p {
+  padding: 0;
+}
+
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.contact-col button {
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  width: 30%;
+  height: 6vh;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #f44336;
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+.contact-col button:hover {
+  background-color: rgb(203, 12, 12);
+}
+.contactBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: rgba(26, 125, 255, 0.1);
 }
