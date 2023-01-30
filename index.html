@@ -35,27 +35,26 @@
   </head>
   <body>
     <!-- HEADER SECTION -->
-    <div class="header">
+    <div class="header" id="home">
       <div class="logo">
         <a href="index.html"><b>Kelvin</b></a>
       </div>
       <div class="nav-list">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">What I do</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">What I do</a></li>
+            <li><a href="#summary">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+        <button class="nav-toggle-btn" id="toggle-btn">
+          <i class="bx bx-menu-alt-right"></i>
+        </button>
       </div>
-      <div class="icons">
-        <i class="bx bxl-twitter"></i>
-        <i class="bx bxl-facebook"></i>
-        <i class="bx bx-basketball"></i>
-      </div>
+
       <!-- HERO SECTION -->
       <div class="hero">
         <h1>Welcome</h1>
@@ -68,7 +67,7 @@
     </div>
 
     <!-- ABOUT SECTION -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="layer">
         <h1><b>ABOUT ME</b></h1>
         <div class="layerTop">
@@ -125,7 +124,7 @@
     </div>
 
     <!-- SERVICES -->
-    <div class="services">
+    <div class="services" id="services">
       <div class="layer">
         <h1><b>SERVICES</b></h1>
         <div class="layerTop">
@@ -210,7 +209,7 @@
     </div>
 
     <!-- SUMARRY SECTION -->
-    <div class="summary">
+    <div class="summary" id="summary">
       <div class="layer">
         <h1><b>SUMMARY</b></h1>
         <div class="layerTop">
@@ -289,7 +288,7 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="layer">
         <h1><b>PORTFOLIO</b></h1>
         <div class="layerTop">
@@ -322,7 +321,7 @@
     </div>
 
     <!-- Contact -->
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="layer">
         <h1><b>CONTACT</b></h1>
         <div class="layerTop">
@@ -368,10 +367,10 @@
             </form>
           </div>
         </div>
-        <div class="contactBottom">
-          <p>Copyright &#169; Owit Kelvin 2023. All rights reserved.</p>
-        </div>
       </section>
+      <div class="contactBottom">
+        <p>Copyright &#169; Owit Kelvin 2023. All rights reserved.</p>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script src="index.js"></script>

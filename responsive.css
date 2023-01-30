@@ -5,11 +5,10 @@
   }
 
   .nav-list nav {
-    display: initial;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   .nav-list ul {
     display: block;
@@ -23,13 +22,14 @@
     justify-content: center;
     font-size: 13px;
   }
-  .icons {
-    justify-content: flex-start;
-    margin-top: 5%;
-    display: none;
+  .nav-toggle-btn {
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
-  .icons i {
-    font-size: 15px;
+  .show ul {
+    /* opacity: 1; */
+    max-height: 50vh;
   }
 }
 
