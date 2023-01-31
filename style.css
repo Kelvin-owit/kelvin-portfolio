@@ -5,73 +5,58 @@
   margin: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
-
+body {
+  background: #fefefe;
+}
 /* HEADER SECTION */
 .header {
   width: 100%;
   height: 100vh;
-  padding: 20px;
   background-image: url(images/home.jpg),
     linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
   background-position: center;
   background-size: cover;
 }
-.logo a {
-  font-size: 50px;
-  font-weight: 900;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  letter-spacing: 4px;
-}
-.nav-list {
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: -3.6%;
+  justify-content: space-between;
+  padding: 0 100px;
 }
-.nav-list nav {
-  display: inline-block;
-  align-items: center;
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fefefe;
+  letter-spacing: 5px;
 }
-.nav-list ul {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
-.nav-list ul li {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-}
-.nav-list ul li a {
-  text-decoration: none;
-  color: rgb(255, 245, 245);
-  font-size: 20px;
-  font-weight: 600;
-  transition: ease-in-out 0.5s;
-}
-.nav-list ul li a:hover {
-  color: rgb(0, 144, 0);
-}
-.nav-toggle-btn {
+.hamburger {
   display: none;
-  /* position: absolute;
-  z-index: 9999;
-  top: 20px;
-  right: 30px; */
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  padding: 0;
 }
-
-.nav-toggle-btn i {
-  color: #dff;
-  font-size: 33px;
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li a {
+  display: block;
+  color: #fefefe;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+.nav-bar ul li a:hover {
+  color: rgb(99, 255, 148);
+}
+.nav-bar ul li a.active {
+  color: rgb(99, 255, 148);
 }
 
 /*HERO SECTION */

@@ -1,35 +1,48 @@
 /* HEADER SECTION*/
-@media only screen and (max-width: 768px) {
-  .logo {
-    font-size: 15px;
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
   }
+}
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 30px;
+  }
+}
 
-  .nav-list nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  .nav-list ul {
+/* 768px */
+@media only screen and (max-width: 768px) {
+  .hamburger {
     display: block;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    cursor: pointer;
   }
-  .nav-list ul li a {
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fefefe;
+    margin: 6px 0;
+  }
+  .nav-bar {
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #11101b;
+    transition: 0.2s;
+    overflow: none;
+  }
+  .nav-bar ul {
     display: block;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 13px;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
   }
-  .nav-toggle-btn {
-    display: block;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  .show ul {
-    /* opacity: 1; */
-    max-height: 50vh;
+  .nav-bar ul li a {
+    margin-bottom: 12px;
+    color: red;
   }
 }
 
