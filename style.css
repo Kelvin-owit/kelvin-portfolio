@@ -8,6 +8,9 @@
   text-decoration: none;
   list-style: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #fefefe;
 }
@@ -55,7 +58,7 @@ header {
 .nav-bar ul li a:hover {
   color: rgb(99, 255, 148);
 }
-.nav-bar ul li a.active {
+.nav-bar ul li a .active {
   color: rgb(99, 255, 148);
 }
 

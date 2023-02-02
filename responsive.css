@@ -25,24 +25,31 @@
   .nav-bar {
     height: 450px;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: 0;
     right: 0;
-    width: 100vw;
-    background: #11101b;
+    width: 100%;
     transition: 0.2s;
-    overflow: none;
+    overflow: hidden;
   }
   .nav-bar ul {
     display: block;
-    width: fit-content;
+    width: 100%;
     margin: 80px auto 0 auto;
     text-align: center;
-    transition: 0.5s;
+    background: #11101b;
+    transition: 0.2s;
+    opacity: 0;
+  }
+  .nav-bar.Active {
+    height: 450px;
+  }
+  .nav-bar.Active ul {
+    opacity: 1;
   }
   .nav-bar ul li a {
     margin-bottom: 12px;
-    color: red;
+    color: white;
   }
 }
 
