@@ -1,5 +1,5 @@
 /* HEADER SECTION*/
-@media only screen and (max-width: 1320px) {
+/* @media only screen and (max-width: 1320px) {
   header {
     padding: 0 50px;
   }
@@ -8,10 +8,10 @@
   header {
     padding: 0 30px;
   }
-}
+} */
 
 /* 768px */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .hamburger {
     display: block;
     cursor: pointer;
@@ -33,23 +33,31 @@
     overflow: hidden;
   }
   .nav-bar ul {
-    display: block;
+    display: inline block;
     width: 100%;
     margin: 80px auto 0 auto;
     text-align: center;
-    background: #11101b;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(0px);
     transition: 0.2s;
     opacity: 0;
   }
   .nav-bar.Active {
+    margin-top: -12px;
     height: 450px;
+    width: 90%;
+    margin-left: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .nav-bar.Active ul {
+    border-radius: 8px;
     opacity: 1;
   }
   .nav-bar ul li a {
-    margin-bottom: 12px;
-    color: white;
+    /* margin-bottom: 12px; */
+    color: lightgreen;
+    font-size: small;
   }
 }
 
