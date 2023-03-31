@@ -11,6 +11,3 @@ hamburger.onclick = function () {
   navBar = document.querySelector(".nav-bar");
   navBar.classList.toggle("Active");
 };
-
-// copyright
-document.getElementById("copyright").innerHTML = new Date().getMonth();
